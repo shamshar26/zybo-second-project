@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  /* .main-container {
+    max-width: 1400px;
+    margin: auto;
+  } */
+  
+  .header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  .header .main-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    gap: 15px;
+  }
+  .header .main-nav li a {
+    text-decoration: none;
+    color:#29293d;
+    font-weight: 500;
+  }
+  .header .right-nav {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  .header .right-nav li a {
+    text-decoration: none;
+  }
+  
+  .banner {
+    position: relative;
+  }
+  .banner-info {
+    max-width: 400px;
+    position: absolute;
+    left: 50px;
+    top: 35%;
+    color: white;
+    padding: 20px;
+    
+  }
+
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 50px; 
+    height: 50px; 
+}
+  
+  .aboutus {
+    padding: 40px;
+  }
+  .aboutus-info {
+    max-width: 70%;
+    margin-bottom: 40px;
+  }
+
+  .aboutus-title{
+    color: #602060;
+    font-weight: bold;
+  }
+  
+  .aboutus-img img {
+    border-radius: 21px; 
+  }
+  .aboutus-num {
+    color: #0d6efd;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .aboutus-column {
+    margin-bottom: 40px;
+  }
+  .aboutus-column h5 {
+    font-size: 14px;
+  }
+
+  .service {
+    padding: 40px;
+  }
+  .service-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .service-column {
+    margin-bottom: 40px;
+  }
+  .service-sub {
+    color: #0d6efd;
+    font-size: 30px;
+  }
+
+  .cd-frame{
+      padding: 10px;
+      border-radius: 12px;
+  
+  }
+
+  .card-title {
+    white-space: nowrap; /* Prevents the text from wrapping */
+    overflow: hidden; /* Hides any overflowing text */
+    text-overflow: ellipsis; /* Displays an ellipsis (...) when text is truncated */
+  }
+
+
+  .card-icon {
+    text-align: center; /* Center-align the content */
+  }
+
+  /* .header2 .portfolio-nav{
+     list-style: none;
+      display: flex;
+      margin: 0;
+      gap: 25px;
+  } */
+
+  .portfolio-nav {
+    text-align: center; /* Aligns the list items to the center */
+  }
+  .portfolio-nav li {
+    display: inline-block; /* Displays list items in a row */
+    margin: 0 10px; /* Adjust margin as needed */
+  }
+
+
+  .portfolio-title{
+    text-align: center;
+  }
+
+
+  .team-info {
+    max-width: 70%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .team-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+
+  .team-body {
+    text-align: center; /* Center-align text within card-body */
+  }
+  .team-icon {
+    display: flex;
+    justify-content: center; /* Center-align the icon */
+  }
+
+  .blog-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .testimonial-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+
+  .testimonial-cards {
+    display: flex;
+    gap: 50px;
+  }
+  .testimonial-cards .card {
+    align-items: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  .testimonial-cards .card:hover {
+    transform: scale(1.2);
+  }
+  .testimonial-card-img {
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .rating {
+    font-size: 14px; 
+  }
+
+  .testmonial-body {
+    text-align: center;
+  }
+
+
+.address-cards {
+    display: flex;
+    justify-content: space-between; /* Adjust this property to change the space between the cards */
+}
+
+.address-cards .card {
+    width: 45%; /* Adjust this property to change the width of each card */
+    overflow: hidden;
+}
+
+.address{
+  margin-top: 50px;
+}
+ 
+.iframe{
+  width: 100%; 
+    height: 100%; 
+}
+
+.address .card{
+  border-radius: 24px;
+}
+
+.form-group {
+  margin-bottom: 35px; /* Increase margin bottom to move the form down */
+ }
+
+.form-control{
+  padding: 20px;
+}
